@@ -1,5 +1,5 @@
-class FixDescriptionColumnTypo < ActiveRecord::Migration[6.1]
+class FixDescriptionColumnTypo < ActiveRecord::Migration[6.0]
   def change
-    rename_column :characters, :description, :description
+    rename_column :characters, :description, :descriptions
   end
 end
